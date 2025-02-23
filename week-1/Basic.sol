@@ -172,6 +172,8 @@ contract Store {
 // zkSync Testnet with zkSync  Plugin
 // zkSync Contract Interactions
 
+// kSync Testnet with zkSync Plugin (Setup & Deployment)
+
 
 
 // The EVM  Ethereum Virtual Machine
