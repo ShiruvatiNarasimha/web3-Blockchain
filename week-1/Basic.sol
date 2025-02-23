@@ -181,3 +181,10 @@ contract Store {
 // Security: The EVM isolates code execution, preventing harmful operations from affecting the network.
 // Interoperability: Since all Ethereum-compatible chains use EVM, dApps can work across multiple networks (like Binance Smart Chain, Polygon).
 // Consensus: The EVM ensures all nodes agree on the state of the blockchain after transactions are processed.
+
+
+//  How the EVM Works
+// Smart Contracts:
+
+// Developers write smart contracts in Solidity.
+// These contracts are compiled into EVM bytecode and deployed on the Ethereum blockchain.
