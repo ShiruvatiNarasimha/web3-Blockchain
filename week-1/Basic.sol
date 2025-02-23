@@ -177,3 +177,7 @@ contract Store {
 // The EVM  Ethereum Virtual Machine
 // Ethereum, Polygon, Arbitrum, Optimism, Zksync
 
+//  Why EVM is Important
+// Security: The EVM isolates code execution, preventing harmful operations from affecting the network.
+// Interoperability: Since all Ethereum-compatible chains use EVM, dApps can work across multiple networks (like Binance Smart Chain, Polygon).
+// Consensus: The EVM ensures all nodes agree on the state of the blockchain after transactions are processed.
