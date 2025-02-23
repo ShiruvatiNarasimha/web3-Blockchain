@@ -179,3 +179,6 @@ contract Store {
 // The EVM can execute any algorithm, given enough resources (like gas).
 //This means developers can create complex dApps (decentralized applications).
 
+// Deterministic Execution:
+
+// The same input will always produce the same output, ensuring consistency across all nodes.
