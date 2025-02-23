@@ -182,3 +182,9 @@ contract Store {
 // Deterministic Execution:
 
 // The same input will always produce the same output, ensuring consistency across all nodes.
+
+//  How the EVM Works
+// 1 Smart Contracts
+
+// Developers write smart contracts in Solidity.
+// These contracts are compiled into EVM bytecode and deployed on the Ethereum blockchain.
