@@ -27,9 +27,6 @@ contract SimpleStorages {
     }
 
 }
-
-
-
 // public : visible externally and internally 
 // private : only visible in the current contract 
 // external : only visible externally (only for function) -i.e can only be message-called(via.func)
@@ -179,3 +176,6 @@ contract Store {
 
 // The EVM  Ethereum Virtual Machine
 // Ethereum, Polygon, Arbitrum, Optimism, Zksync
+// The EVM can execute any algorithm, given enough resources (like gas).
+//This means developers can create complex dApps (decentralized applications).
+
