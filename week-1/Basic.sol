@@ -174,8 +174,7 @@ contract Store {
 
 // zkSync Testnet with zkSync Plugin (Setup & Deployment)
 // zkSync is a Layer 2 solution using zk-rollups, which reduces gas 
-// fees and increases scalability. The zkSync Hardhat plugin helps you compile,
-//  deploy, and interact with zkSync-compatible smart contracts.
+// The zkSync Hardhat plugin helps you compile, deploy, and interact with zkSync-compatible smart contracts
 
 
 
