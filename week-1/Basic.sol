@@ -195,3 +195,9 @@ contract Store {
 
 // Users interact with smart contracts by sending transactions.
 // Each transaction that triggers contract execution is processed by the EVM.
+
+
+// 3 Gas Mechanism:
+
+// Every computation requires gas, which users pay in Ether (ETH).
+// Gas prevents spam and ensures efficient use of computational resources.
