@@ -184,7 +184,14 @@ contract Store {
 
 
 //  How the EVM Works
-// Smart Contracts:
+
+
+// 1 Smart Contracts:
 
 // Developers write smart contracts in Solidity.
 // These contracts are compiled into EVM bytecode and deployed on the Ethereum blockchain.
+
+// 2 Transactions:
+
+// Users interact with smart contracts by sending transactions.
+// Each transaction that triggers contract execution is processed by the EVM.
