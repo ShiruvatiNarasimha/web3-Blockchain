@@ -188,3 +188,10 @@ contract Store {
 
 // Developers write smart contracts in Solidity.
 // These contracts are compiled into EVM bytecode and deployed on the Ethereum blockchain.
+
+
+//  How the EVM Works
+// 1 Smart Contracts
+
+// Developers write smart contracts in Solidity.
+// These contracts are compiled into EVM bytecode and deployed on the Ethereum blockchain.
