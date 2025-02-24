@@ -172,42 +172,4 @@ contract Store {
 // zkSync Testnet with zkSync  Plugin
 // zkSync Contract Interactions
 
-// zkSync Testnet with zkSync Plugin (Setup & Deployment)
-// zkSync is a Layer 2 solution using zk-rollups, which reduces gas 
-// The zkSync Hardhat plugin helps you compile, deploy, and interact with zkSync-compatible smart contracts
 
-
-
-// The EVM  Ethereum Virtual Machine
-// Ethereum, Polygon, Arbitrum, Optimism, Zksync
-
-
-
-// The Ethereum Virtual Machine (EVM) is the core component of the Ethereum blockchain. It acts as a decentralized computer that allows anyone to 
-// run code (smart contracts) on the Ethereum network. The EVM ensures that the same code produces the same results across all nodes, maintaining
-//  consensus throughout the network.
-
-//  Why EVM is Important
-// Security: The EVM isolates code execution, preventing harmful operations from affecting the network.
-// Interoperability: Since all Ethereum-compatible chains use EVM, dApps can work across multiple networks (like Binance Smart Chain, Polygon).
-// Consensus: The EVM ensures all nodes agree on the state of the blockchain after transactions are processed.
-
-
-//  How the EVM Works
-
-
-// 1 Smart Contracts:
-
-// Developers write smart contracts in Solidity.
-// These contracts are compiled into EVM bytecode and deployed on the Ethereum blockchain.
-
-// 2 Transactions:
-
-// Users interact with smart contracts by sending transactions.
-// Each transaction that triggers contract execution is processed by the EVM.
-
-
-// 3 Gas Mechanism:
-
-// Every computation requires gas, which users pay in Ether (ETH).
-// Gas prevents spam and ensures efficient use of computational resources.
