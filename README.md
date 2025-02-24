@@ -8,8 +8,6 @@ Hi! I'm Shiruvati, and I'm excited to share my journey learning Web3 development
 
 ## 📚 Current Focus
 
-![Alt text](https://github.com/ShiruvatiNarasimha/Blockchain-web3/blob/1c6c0232f32769e12bc4dfbd07fc34a1850b06a0/web3-GettyImages.jpg)
-
 - Learning Solidity fundamentals
 - Building smart contracts on Ethereum
 - Understanding Web3 ecosystem
