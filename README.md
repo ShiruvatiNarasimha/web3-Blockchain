@@ -4,8 +4,6 @@
 
 ## 👋 Introduction
 
-Hi! I'm Shiruvati, and I'm excited to share my journey learning Web3 development and Solidity programming. This repository documents my progress, projects, and experiences as I dive deeper into blockchain development.
-
 ## 📚 Current Focus
 
 - Learning Solidity fundamentals
