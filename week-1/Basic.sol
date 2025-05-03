@@ -168,6 +168,86 @@ contract Store {
 // 21-02-2025
 
 
-// Remix Simple Storage Deplot to 
+// Remix Simple Storage Deplot to
+
+// SPDX-License-Identifier: MIT
+// New simple smart contract added on May 3, 2025
+
+contract SimpleAuction {
+    // Data variables
+    address public beneficiary;
+    uint public auctionEndTime;
+    
+    // Current state of the auction
+    address public highestBidder;
+    uint public highestBid;
+    
+    // Allowed withdrawals of previous bids
+    mapping(address => uint) public pendingReturns;
+    
+    // Set to true at the end, disallows any change
+    bool public ended;
+    
+    // Events to notify clients
+    event HighestBidIncreased(address bidder, uint amount);
+    event AuctionEnded(address winner, uint amount);
+    
+    // Constructor creates auction with given parameters
+    constructor(uint _biddingTime, address _beneficiary) {
+        beneficiary = _beneficiary;
+        auctionEndTime = block.timestamp + _biddingTime;
+    }
+    
+    // Bid on the auction with the value sent
+    // The value will only be refunded if the auction is not won
+    function bid() public payable {
+        // Check if auction still open
+        require(block.timestamp <= auctionEndTime, "Auction already ended");
+        
+        // Check if bid is higher
+        require(msg.value > highestBid, "There already is a higher bid");
+        
+        if (highestBid != 0) {
+            // Return the previous highest bid to the bidder
+            pendingReturns[highestBidder] += highestBid;
+        }
+        
+        highestBidder = msg.sender;
+        highestBid = msg.value;
+        emit HighestBidIncreased(msg.sender, msg.value);
+    }
+    
+    // Withdraw a previously refunded bid
+    function withdraw() public returns (bool) {
+        uint amount = pendingReturns[msg.sender];
+        if (amount > 0) {
+            // Set pending return to zero to prevent double withdrawal attempts
+            pendingReturns[msg.sender] = 0;
+            
+            if (!payable(msg.sender).send(amount)) {
+                // If withdrawal fails, restore the amount
+                pendingReturns[msg.sender] = amount;
+                return false;
+            }
+        }
+        return true;
+    }
+    
+    // End the auction and send the highest bid to the beneficiary
+    function auctionEnd() public {
+        // Check auction has already ended
+        require(block.timestamp >= auctionEndTime, "Auction not yet ended");
+        require(!ended, "Auction end has already been called");
+        
+        // Mark auction as ended
+        ended = true;
+        
+        // Send highest bid to beneficiary
+        emit AuctionEnded(highestBidder, highestBid);
+        
+        // Transfer funds to beneficiary
+        payable(beneficiary).transfer(highestBid);
+    }
+}
 
 
