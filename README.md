@@ -2,15 +2,6 @@
 
 ## Cyfrin Updraft courses
 
-## 🛠️ Tools & Technologies
-
-| Tool          | Purpose                    | Status     |
-| ------------- | -------------------------- | ---------- |
-| Remix IDE     | Smart Contract Development | ✓ Active   |
-| Truffle Suite | Testing & Deployment       | ⬆ Learning |
-| Hardhat       | Local Development          | ⬆ Next     |
-| Ethers.js     | Frontend Integration       | ⬆ Planned  |
-
 ## 🏗️ Projects Timeline
 
 ### Beginner Phase
