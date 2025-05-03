@@ -2,15 +2,6 @@
 
 ## Cyfrin Updraft courses
 
-## 👋 Introduction
-
-## 📚 Current Focus
-
-- Learning Solidity fundamentals
-- Building smart contracts on Ethereum
-- Understanding Web3 ecosystem
-- Experimenting with blockchain development tools
-
 ## 🛠️ Tools & Technologies
 
 | Tool          | Purpose                    | Status     |
