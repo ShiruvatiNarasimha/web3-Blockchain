@@ -30,12 +30,6 @@
 
 ## 💡 Learning Resources
 
-### Documentation
-
-- [Solidity Docs](https://docs.soliditylang.org/)
-- [Ethers.js Documentation](https://docs.ethers.io/)
-- [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts/)
-
 ### Communities
 
 - [Crypto Zombies](https://cryptozombies.io/)
